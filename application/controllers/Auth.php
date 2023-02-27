@@ -4,7 +4,7 @@ class Auth extends CI_Controller
 {
     public function login()
     {
-        $this->load->view('auth/login');
+        $this->load->view('Auth/login');
     }
     public function logout()
     {
@@ -13,7 +13,7 @@ class Auth extends CI_Controller
         $this->session->unset_userdata('tanggal_buku_baru_sibulan');
         $this->session->unset_userdata('password');
         $this->session->unset_userdata('id_admin');
-        redirect('index.php/auth/login');
+        redirect('index.php/Auth/login');
     }
     public function loginsubmit()
     {
@@ -35,7 +35,7 @@ class Auth extends CI_Controller
         }
         else{
             $this->session->set_flashdata('input_anggota_message','<div class="badge badge-warning" role="alert">Password Salah</div>');
-            redirect('index.php/auth/login');
+            redirect('index.php/Auth/login');
         }
     }
 }

@@ -5,7 +5,7 @@ class Bunga_simapan extends CI_Controller{
     public function __construct(){
         parent::__construct();
         if (!$this->session->userdata('login')) {
-            redirect('index.php/auth/login');
+            redirect('index.php/Auth/login');
             return false;
         }
         $this->load->model('simpanan_masuk_model');

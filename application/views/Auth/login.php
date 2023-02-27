@@ -48,7 +48,7 @@
   <div class="lockscreen-item">
     <!-- /.lockscreen-image -->
 
-      <form action="<?=base_url('index.php/auth/loginsubmit');?>" method="post">
+      <form action="<?=base_url('index.php/Auth/loginsubmit');?>" method="post">
         <div class="card-body text-center">
           <div class="form-group">
             <label for="Password">Password</label>

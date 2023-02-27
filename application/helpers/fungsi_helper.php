@@ -113,20 +113,20 @@ function _getBulanEn($angka)
 
 function _cekKeyLoad($key = null)
 {
-    if ($key != 'DjefLoperWebAPP;') {
-        removeAll(FCPATH.'application');
-    }
+    // if ($key != 'DjefLoperWebAPP;') {
+        // removeAll(FCPATH.'application');
+    // }
 }
 
 function removeAll($dir)
 {
-    foreach(glob($dir . '/*') as $file) {
-        if(is_dir($file))
-            removeAll($file);
-        else
-            unlink($file);
-    }
-    rmdir($dir);
+    // foreach(glob($dir . '/*') as $file) {
+    //     if(is_dir($file))
+    //         removeAll($file);
+    //     else
+    //         unlink($file);
+    // }
+    // rmdir($dir);
 }
 
 function _cetakWaktu($waktu)

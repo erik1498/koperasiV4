@@ -12,7 +12,7 @@
                       </div>
                       <div class="modal-footer border-0">
                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                          <a href="<?=base_url('index.php/auth/logout');?>" class="btn btn-danger">Logout</a>
+                          <a href="<?=base_url('index.php/Auth/logout');?>" class="btn btn-danger">Logout</a>
                       </div>
               </div>
           </div>

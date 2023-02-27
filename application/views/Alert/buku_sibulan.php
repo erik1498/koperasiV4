@@ -25,7 +25,7 @@
         <h3>Pembukuan Untuk Tahun <?= $_SESSION['tahun']; ?> <br><br> Telah Di Buka</h3>
         <div class="row mt-5">
           <div class="col-12">
-            <a href="<?=base_url('index.php/auth/logout');?>" class="btn btn-lg btn-success shadow btn-block"><b>Lanjutkan</b> <i class="fa fa-arrow-right"></i></a>
+            <a href="<?=base_url('index.php/Auth/logout');?>" class="btn btn-lg btn-success shadow btn-block"><b>Lanjutkan</b> <i class="fa fa-arrow-right"></i></a>
           </div>
           <!-- /.col -->
         </div>
