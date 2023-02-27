@@ -264,13 +264,13 @@ function Cek_jenis_simpanan($data,$jenis)
 function _setKeyLoad()
 {
     $ce = get_instance();
-    if (gethostbyaddr($_SERVER['REMOTE_ADDR']) == 'DESKTOP-CBVJJKQ') {
+    // if (gethostbyaddr($_SERVER['REMOTE_ADDR']) == 'DESKTOP-CBVJJKQ') {
     // if (gethostbyaddr($_SERVER['REMOTE_ADDR']) == 'DESKTOP-HN76MO7') {
-        $ce->session->set_userdata('keyLoad', 'DjefLoperWebAPP;');
-    }else{
-        echo('This Computer Is Not Compatible');
-        die();
-    }
+        // $ce->session->set_userdata('keyLoad', 'DjefLoperWebAPP;');
+    // }else{
+        // echo('This Computer Is Not Compatible');
+        // die();
+    // }
 }
 
 
