@@ -1,6 +1,6 @@
 <?php
 
-class laba_penjualan extends CI_Controller{
+class Laba_penjualan extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

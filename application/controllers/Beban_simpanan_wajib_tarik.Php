@@ -1,6 +1,6 @@
 <?php
 
-class beban_simpanan_wajib_tarik extends CI_Controller{
+class Beban_simpanan_wajib_tarik extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

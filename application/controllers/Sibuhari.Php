@@ -1,6 +1,6 @@
 <?php
 
-class sibuhari extends CI_Controller{
+class Sibuhari extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

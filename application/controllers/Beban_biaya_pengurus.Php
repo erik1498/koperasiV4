@@ -1,6 +1,6 @@
 <?php
 
-class beban_biaya_pengurus extends CI_Controller{
+class Beban_biaya_pengurus extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

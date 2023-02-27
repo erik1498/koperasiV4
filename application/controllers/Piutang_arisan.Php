@@ -1,6 +1,6 @@
 <?php
 
-class piutang_arisan extends CI_Controller{
+class Piutang_arisan extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

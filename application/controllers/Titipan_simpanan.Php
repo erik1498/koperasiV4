@@ -1,6 +1,6 @@
 <?php
 
-class titipan_simpanan extends CI_Controller{
+class Titipan_simpanan extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

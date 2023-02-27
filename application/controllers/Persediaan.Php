@@ -1,6 +1,6 @@
 <?php
 
-class persediaan extends CI_Controller{
+class Persediaan extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

@@ -1,6 +1,6 @@
 <?php
 
-class dcr extends CI_Controller{
+class Dcr extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

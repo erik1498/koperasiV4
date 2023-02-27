@@ -1,6 +1,6 @@
 <?php
 
-class rat extends CI_Controller{
+class Rat extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

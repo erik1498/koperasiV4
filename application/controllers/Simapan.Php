@@ -1,6 +1,6 @@
 <?php
 
-class simapan extends CI_Controller{
+class Simapan extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

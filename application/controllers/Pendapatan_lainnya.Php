@@ -1,6 +1,6 @@
 <?php
 
-class pendapatan_lainnya extends CI_Controller{
+class Pendapatan_lainnya extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

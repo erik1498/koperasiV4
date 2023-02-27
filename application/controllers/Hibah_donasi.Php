@@ -1,6 +1,6 @@
 <?php
 
-class hibah_donasi extends CI_Controller{
+class Hibah_donasi extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

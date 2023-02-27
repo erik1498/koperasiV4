@@ -1,6 +1,6 @@
 <?php
 
-class piutang_konsumsi extends CI_Controller{
+class Piutang_konsumsi extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

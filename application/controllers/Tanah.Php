@@ -1,6 +1,6 @@
 <?php
 
-class tanah extends CI_Controller{
+class Tanah extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

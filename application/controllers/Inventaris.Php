@@ -1,6 +1,6 @@
 <?php
 
-class inventaris extends CI_Controller{
+class Inventaris extends CI_Controller{
 
     public function __construct(){
         parent::__construct();

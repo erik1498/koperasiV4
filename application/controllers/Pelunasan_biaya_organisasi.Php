@@ -1,6 +1,6 @@
 <?php
 
-class pelunasan_biaya_organisasi extends CI_Controller{
+class Pelunasan_biaya_organisasi extends CI_Controller{
 
     public function __construct(){
         parent::__construct();
