@@ -311,7 +311,7 @@ class cetak extends CI_Controller{
         $data['lalu'] = $lalu == '' ? 'admin' : 'pengaturan';
         $data['backPage'] = $backPage;
         $this->load->view('templates/header'.$lalu);
-        $this->load->view('admin/view/laporan_view',$data);
+        $this->load->view('ADMIN/view/laporan_view',$data);
         $this->load->view('templates/footer');
     }
 
@@ -337,8 +337,8 @@ class cetak extends CI_Controller{
         }
         $data['bulan_lihat'] = $bulan;
         $data['jenis'] = $halaman == 'rekap' ? ['pokok', 'wajib', 'sukarela'] : $halaman;
-        $this->load->view('admin/cetak/'.$file , $data);
-        $html = $this->load->view('admin/cetak/'.$file , $data, true);
+        $this->load->view('ADMIN/cetak/'.$file , $data);
+        $html = $this->load->view('ADMIN/cetak/'.$file , $data, true);
         
         $mpdf->AddPage('L');
 		$mpdf->WriteHTML($html);
@@ -354,7 +354,7 @@ class cetak extends CI_Controller{
         $data['lalu'] = $lalu == '' > 0 ? 'admin' : 'pengaturan';
         $file = $file != 'rekap' ? 'simpanan' : $file;
         $this->load->view('templates/header'.$lalu);
-        $this->load->view('admin/view/laporan_'.$file, $data);
+        $this->load->view('ADMIN/view/laporan_'.$file, $data);
         $this->load->view('templates/footer');
     }
 
@@ -367,7 +367,7 @@ class cetak extends CI_Controller{
             $data['anggota'][$i]['detail'] = $this->anggota_model->getDetailAnggota($data['anggota'][$i]['id_anggota'], true);
         }
         $file = $halaman == 'rekap' ? 'rekap' : 'simpanan';
-        $html = $this->load->view('admin/cetak/'.$file ,$data,true);
+        $html = $this->load->view('ADMIN/cetak/'.$file ,$data,true);
         $mpdf->AddPage('L');
 		$mpdf->WriteHTML($html);
 		$mpdf->Output('assets/laporan/laporan_'.$file.'.pdf','F');

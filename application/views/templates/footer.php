@@ -606,7 +606,7 @@
 
         $('.btn-cetak-buku').on('click', function () {
             $.ajax({
-                url: "<?=base_url('index.php/admin/CetakBuku');?>",
+                url: "<?=base_url('index.php/ADMIN/cetakBuku');?>",
                 data:{
                     id_anggota:$('#id_anggota').val(),
                     tanggal:$('#tanggal').val()
